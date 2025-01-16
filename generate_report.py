@@ -73,7 +73,7 @@ def clean_data(df):
     """
     df["age"] = df["dob"].apply(calculate_age)
     df = df.dropna(subset=["age", "city", "country"])
-    df["age"] = df["age"].astype(int)
+    df.loc[:, "age"] = df["age"].astype(int)
     return df
 
 def generate_report(df, output_path):
