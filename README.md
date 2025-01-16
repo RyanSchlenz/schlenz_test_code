@@ -37,27 +37,6 @@ project/
 ├── README.md               # Project instructions
 └── people_data.xml         # Input XML data (sample data provided by the user)
 
-*Example Report*
-An example of the XLM data: 
-
-## Data Requirements
-
-The input XML file must follow the structure below:
-<people>
-    <person>
-        <id>1234567890</id>
-        <name>John Doe</name>
-        <dob>1989-06-15</dob>
-        <address>
-            <street>123 Main St</street>
-            <city>Springfield</city>
-            <state>IL</state>
-            <zipcode>62701</zipcode>
-            <country>USA</country>
-        </address>
-    </person>
-</people>
-
 License
 This project is licensed under the MIT License.
 
