@@ -1,0 +1,13 @@
+Invalid record: <person>
+
+<id>6240350649</id>
+<name>Zack Black</name>
+<dob>1930-03-01</dob>
+<address>
+<street>334 N 712 E</street>
+<city>SLC</city>
+<state>UT</state>
+<zipcode>12324</zipcode>
+</address>
+</person>
+
