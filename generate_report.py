@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 import logging
 
-# Set up a logger for discarded records only
+# Set up a logger for discarded records only 
 logger = logging.getLogger("discarded_records")
 logger.setLevel(logging.INFO)
 file_handler = logging.FileHandler("discarded_files.txt", mode="w")
