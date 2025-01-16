@@ -12,7 +12,7 @@ file_handler.setLevel(logging.INFO)
 logger.addHandler(file_handler)
 
 def calculate_age(dob):
-    """
+    """ 
     Calculates the age based on the given date of birth.
 
     Parameters:
