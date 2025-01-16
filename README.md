@@ -1,4 +1,4 @@
-*XML Medical Data Processor*
+# XML Medical Data Processor
 
 This project processes patient data from an XML file, cleans the data, and generates a report summarizing adults and children by city. It also creates a bar chart displaying the average age by city.
 
@@ -11,7 +11,7 @@ Report Generation: Creates a JSON report summarizing the number of adults and ch
 
 Visualization: Generates a bar chart showing the average age by city and saves it as an image file.
 
-*Prerequisites*
+# Prerequisites
 Ensure you have Python installed (>= 3.7). Install the required libraries using:
 
 pip install -r requirements.txt
@@ -28,7 +28,7 @@ Output Files:
 report.json: A JSON file summarizing adults and children by city.
 age_by_city.png: A bar chart image showing the average age by city.
 
-*File Structure*
+# File Structure
 project/
 ├── main.py                # Orchestrates the workflow
 ├── generate_report.py      # Handles data loading, cleaning, and reporting
